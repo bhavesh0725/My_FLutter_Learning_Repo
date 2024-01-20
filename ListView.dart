@@ -35,3 +35,16 @@
     );
   }
 }
+
+
+*******************************************************************************************************************************************************************
+
+listview template:
+
+ListView.builder(
+            itemCount: 20,
+            itemBuilder: (context, index) => ListTile(
+                  title: Text(index.toString()), //indexes fro 0 to 19 are converted in to string and are printed
+                )),
+        
+
