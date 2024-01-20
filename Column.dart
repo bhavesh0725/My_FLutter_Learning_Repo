@@ -4,6 +4,7 @@ body: Column(
           children: [
             //box1
             Expanded(
+              flex: 3,      //flex divides the area in the ratio mentioned compared to other widget
               child: Container(
                 height: 200,
                 decoration: BoxDecoration(
