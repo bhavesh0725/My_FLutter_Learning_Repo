@@ -24,7 +24,7 @@ body: Column(
             //box3
             Expanded(
               child: Container(
-                height: 150,
+                height: 150,                     // if the size is taken 350 this will lead to the overflow problem and this problem can be solved by the LISTVIEW
                 decoration: BoxDecoration(
                   color: Colors.green,
                 ),
